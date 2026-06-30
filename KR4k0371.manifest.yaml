@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR4k0371/v1
+canonical_location: https://kanripo.org/bkk/KR4k0371/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 三五歷記一卷
+  identifiers:
+    krp: KR4k0371
+  tags:
+    kr-categories: KR4k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0371.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4k0371_001.yaml, hash: 'sha256:80c0cce6a509281b38c9abb5eae18e7688aed5fb493818ce620c6ec2976d88e2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4k0371_001.markers.yaml, hash: 'sha256:3779b962cac7142d07a6cee93204580c884c5c53db51f4c0832702894edccb71'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4k0371_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 477
+  label: 三五歷記
+  type: section
+  level: 1
+hash: sha256:39b99f8d8e41fca5249484b384d3d86d0d4032058c5cbf0e3e5fcf2a905b51f5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
